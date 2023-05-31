@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  padding: 10px;
+  align-content: center;
+  width: 355px;
+  background-color: #fff;
+}
+
+.container-btn button{
+  width: 170px;
+  height: 30px;
+  border: none;
+  border: 1px solid #8090a5;
+}
+
+#btn-1 {
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+#btn-2 {
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.onlyNewPromotions {
+  background-color: #8090a5;
+  color: #fff;
+}
+
+.allPromotions {
+  background-color: #8090a5;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  width: 330px;
+}
+
+.card img {
+  width: 330px;
+}
+
+.titleParagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  gap: 5px; 
+}
+
+.titleParagraph h2 {
+  font-weight: 400;
+  color: #47525e;
+}
+
+.titleParagraph p {
+  text-align: left;
+  font-size: 12px;
+  color: #47525e;
+}
+
+.buttons{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  padding-bottom: 15px;
+} 
+
+.buttons button{
+  height: 32px;
+  padding: 7px;
+  border-radius: 6px;
+  border: 1px solid #47525e;
+  
+}
+
+.joinNow {
+  background-color: #47525e;
+  color: #fff;
+  width: 130px;
+}
